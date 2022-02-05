@@ -1,4 +1,4 @@
-(ns something.core)
+(ns sorting.core)
 
 (defn foo
   "I don't do a whole lot."
@@ -7,7 +7,6 @@
 
 (defn qsort
   [xs]
-  (println xs)
   (if (> (count xs) 1)
     (let [
           f (first xs)
